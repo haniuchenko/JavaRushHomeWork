@@ -41,19 +41,7 @@ public class Solution
 
     public static ArrayList<String> fix(ArrayList<String> list)
     {
-        ArrayList<String> listTwo = new ArrayList<String>();
-        for(int i = 0; i < list.size(); i++)
-        {
-            if(list.get(i).contains("л") && list.get(i).contains("р")) listTwo.add(list.get(i));
-            else if(list.get(i).contains("л"))
-            {
-                listTwo.add(list.get(i));
-                listTwo.add(list.get(i));
-            }
-            else if(list.get(i).contains("р")) list.remove(i);
-            else listTwo.add(list.get(i));
-        }
-
-        return listTwo;
+        //напишите тут ваш код
+        return null;
     }
 }
